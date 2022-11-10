@@ -1,6 +1,5 @@
 let target = document.querySelector('#target')
-let start_y = parseInt(prompt("Give a starting year: "));
-let end_y = parseInt(prompt("Give an ending year: "));
+let name = parseInt(prompt("Greetings. I am the great sorting hat. I will draw a class for you. Firstly, give me your name: "));
 
 
 let list_of_leapy = '<ul>';
