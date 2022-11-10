@@ -1,16 +1,20 @@
-let n = parseInt(prompt("Give a year:"))
+const number = parseInt(prompt("Enter a positive number: "));
+let isPrime = true;
 
-if (n > 1)
-{
-    for (let i in (range(2, int(n/2)+1))
+if (number === 1) {
+    target.innerHTML = name + ' 1 is neither prime nor composite number.';
+} else if (number > 1) {
+
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        target.innerHTML = number + ' is a prime number.';
+    } else {
+        target.innerHTML = number + ' is not a prime number.';
+    }
 }
-	:
-		if (n % i) == 0:
-			print(n, "ei ole alkuluku.")
-			break
-	else:
-		print(n, "on alkuluku.")
-
-# Jos numero on alempi kuin 1, se ei ole alkuluku.
-else:
-	print(n, "ei ole alkuluku.")
