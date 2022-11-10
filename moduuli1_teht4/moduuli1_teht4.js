@@ -7,17 +7,17 @@ let result = Math.floor(Math.random() * 4)+1;
 
 if (result == 1)
 {
-    target.innerHTML = name + ', you are Daredevil!';
+    target.innerHTML = name + ', you are Daredevil.';
 }
 if (result == 2)
 {
-    target.innerHTML = name + ', you are Slytherin!';
+    target.innerHTML = name + ', you are Slytherin.';
 }
 if (result == 3)
 {
-    target.innerHTML = name + ', you are Hufflepuff!';
+    target.innerHTML = name + ', you are Hufflepuff.';
 }
 if (result == 4)
 {
-    target.innerHTML = name + ', you are Ravenclaw!';
+    target.innerHTML = name + ', you are Ravenclaw.';
 }
