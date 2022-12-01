@@ -1,3 +1,3 @@
 # Moduuli1
 Tehtävät
-# Tehty erilaisia moduuli tehtäviä Pycharmissa.
+# Tehty erilaisia Moduuli tehtäviä, joihin sisältynyt Javascript koodi- kieli.
